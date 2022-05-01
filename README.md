@@ -11,6 +11,7 @@ Another local edit to add double returns to text file for markdown paragraphs
 I had made an edit to README using the github online editor. I also modified the file locally (so the versions differ by new edits on both). I tried to push the local file to remote:
 
 ```git push origin```
+
 ```> ! [rejected] ...```
 
 Terminal message explained the remote copy contains work that is not in the local copy. Suggesting that remote changes are first integrated locally
@@ -54,12 +55,17 @@ and repeated the pull request:
 git pull origin main
 ```
 
-I got a terminal message warning that automatic merge failed due to conflics and instructed me to reconcile differences before merge.
+I got a terminal message warning that automatic merge failed due to conflicts and instructed me to reconcile differences before merge.
 
-Having edited the text file, following messages about diverged files, I addded and committed the local README to the local repository before pushing it to remote:
+Having edited the text file, following messages about diverged files, I added and committed the local README to the local repository before pushing it to remote:
 
 ```
 git push origin main
 ```
 
-Latly, I added these summary notes locally and will not push them with the same command. (nothing should have changed online since).
+Lastly, I added these summary notes locally and will now push them with the same command. (nothing should have changed online since).
+
+## online editing
+The push worked properly.
+After correcting a few typos online, I added these notes and will shortly pull this version to my local repo to work on (this time, nothing has changed locally so hopefully, this version will merge automatically.
+
