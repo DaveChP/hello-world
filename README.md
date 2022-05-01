@@ -69,3 +69,13 @@ Lastly, I added these summary notes locally and will now push them with the same
 The push worked properly.
 After correcting a few typos online, I added these notes and will shortly pull this version to my local repo to work on (this time, nothing has changed locally so hopefully, this version will merge automatically.
 
+## local
+I pulled this file back to local using:
+
+```
+git pull origin main
+```
+
+running `git status` showed local up to date, implying remote was successfully merged to the local repo automatically. Opening this file locally in vim, showed the remote changes were indeed present. 
+
+After adding these comments locally, I'll add, commit, and push the file back to the remote repository.
