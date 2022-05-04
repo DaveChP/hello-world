@@ -79,3 +79,26 @@ git pull origin main
 running `git status` showed local up to date, implying remote was successfully merged to the local repo automatically. Opening this file locally in vim, showed the remote changes were indeed present. 
 
 After adding these comments locally, I'll add, commit, and push the file back to the remote repository.
+
+
+## Local Pull and Branch
+04 May 2022, in the local repository I ran:
+
+```
+git pull origin main
+```
+message said, `already up to date` indicating no modifications to remote version since my last local changes.
+
+To work on this file, I first created and checked-out a new branch, using the combined command:
+
+```
+git checkout -b local
+```
+this created, and moved to (by `checkout`), a new branch `-b`, called `local`
+
+I've now opened the Readme file and am editing it before attempting to push it (without merging) back to the remote repository. 
+
+I will attempt:
+```
+git push origin local
+```
